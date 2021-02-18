@@ -1,10 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
-=======
-import Table from "./Table";
 /*Add import statement here*/
-
->>>>>>> 0f2cc53cf1869241e40899fc41c0066ab37373e8
 class App extends React.Component {
   constructor(props) {
     super(props);
