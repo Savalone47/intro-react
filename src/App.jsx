@@ -79,8 +79,9 @@ class App extends React.Component {
     }
 
     /* Uncomment lines below to render grades*/
-    /*if (this.state.buttonClicked === "grades") {
+    if (this.state.buttonClicked === "grades") {
       tabChoice = (
+        // eslint-disable-next-line react/jsx-no-undef
         <Table
           tableNames={this.state.assignments}
           rows={this.state.students}
@@ -88,7 +89,7 @@ class App extends React.Component {
           data={this.state.grades}
         />
       );
-    }*/
+    }
 
     return (
       <div>
