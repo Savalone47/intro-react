@@ -1,5 +1,6 @@
 import React from "react";
 import List from "./List";
+import Table from "./Table";
 
 /*Add import statement here*/
 class App extends React.Component {
@@ -81,7 +82,6 @@ class App extends React.Component {
     /* Uncomment lines below to render grades*/
     if (this.state.buttonClicked === "grades") {
       tabChoice = (
-        // eslint-disable-next-line react/jsx-no-undef
         <Table
           tableNames={this.state.assignments}
           rows={this.state.students}
